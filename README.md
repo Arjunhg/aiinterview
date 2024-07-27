@@ -30,3 +30,51 @@ Welcome to the future of interview preparation! Our AI-powered mock interview pl
 
 <details>
 <summary>Click to see the project layout</summary>
+
+└── 📁aiinterview
+└── 📁app
+└── 📁ComponentHelper
+└── 📁components
+└── 📁lib
+└── 📁public
+└── 📁utils
+
+</details>
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/ai-interview-simulator.git
+
+2. Install dependencies:
+    ```bash
+    cd ai-interview-simulator
+    npm install
+
+3. Set up environment variables:
+     ```bash
+     cp .env.example .env.local
+  Edit .env.local with your API keys and configuration.
+
+4. Run the development server:
+     ```bash
+     npm run dev
+
+## 💡 Usage
+
+<details>
+  <summary>Click to see project usage</summary>
+
+1. 👤 **Create an Account**: Sign up or log in to access the dashboard.
+2. 🆕 **Start a New Interview**: Choose your industry and difficulty level.
+3. 🎙️ **Answer Questions**: Respond to AI-generated questions via text or video.
+4. 📊 **Receive Feedback**: Get instant AI-powered feedback on your responses.
+5. 📈 **Review and Improve**: Analyze your performance and practice weak areas.
+6. 
+</details>
+
+## 🤝 Contributing
+We welcome contributions! Please check out our Contribution Guide for details on how to get started.
+
+## 📄 License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
