@@ -31,19 +31,19 @@ Welcome to the future of interview preparation! Our AI-powered mock interview pl
 <details>
 <summary>Click to see the project layout</summary>
 
-└── 📁aiinterview
+└── 📁interviewgenie
 
-└── 📁app
+   └── 📁app
 
-└── 📁ComponentHelper
+   └── 📁ComponentHelper
 
-└── 📁components
+   └── 📁components
 
-└── 📁lib
+   └── 📁lib
 
-└── 📁public
+   └── 📁public
 
-└── 📁utils
+   └── 📁utils
 
 
 </details>
@@ -77,7 +77,7 @@ Welcome to the future of interview preparation! Our AI-powered mock interview pl
 3. 🎙️ **Answer Questions**: Respond to AI-generated questions via text or video.
 4. 📊 **Receive Feedback**: Get instant AI-powered feedback on your responses.
 5. 📈 **Review and Improve**: Analyze your performance and practice weak areas.
-6. 
+
 </details>
 
 ## 🤝 Contributing
