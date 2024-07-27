@@ -32,12 +32,19 @@ Welcome to the future of interview preparation! Our AI-powered mock interview pl
 <summary>Click to see the project layout</summary>
 
 └── 📁aiinterview
+
 └── 📁app
+
 └── 📁ComponentHelper
+
 └── 📁components
+
 └── 📁lib
+
 └── 📁public
+
 └── 📁utils
+
 
 </details>
 
