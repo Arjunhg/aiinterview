@@ -41,6 +41,7 @@ Welcome to the future of interview preparation! Our AI-powered mock interview pl
 
 </details>
 
+## 🚦 Getting Started
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/ai-interview-simulator.git
