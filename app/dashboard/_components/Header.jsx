@@ -33,9 +33,9 @@ function Header() {
       <ul className='hidden md:flex gap-6'>
 
         <li className={`hover:text-purple-400 hover:font-bold transition-all cursor-pointer ${path == '/dashboard' && 'text-purple-400 font-bold'}`} onClick={navigateToDashboard}>Dashboard</li>
-        <li className={`hover:text-purple-400 hover:font-bold transition-all cursor-pointer ${path == '/question' && 'text-purple-400 font-bold'}`}>Question</li>
+        {/* <li className={`hover:text-purple-400 hover:font-bold transition-all cursor-pointer ${path == '/question' && 'text-purple-400 font-bold'}`}>Question</li> */}
         <li className={`hover:text-purple-400 hover:font-bold transition-all cursor-pointer ${path == '/pricing' && 'text-purple-400 font-bold'}`} onClick={navigateToPricing}>Upgrade</li>
-        <li className={`hover:text-purple-400 hover:font-bold transition-all cursor-pointer ${path == '/working' && 'text-purple-400 font-bold'}`}>How it Works?</li>
+        {/* <li className={`hover:text-purple-400 hover:font-bold transition-all cursor-pointer ${path == '/working' && 'text-purple-400 font-bold'}`}>How it Works?</li> */}
       </ul>
 
       <UserButton/>
