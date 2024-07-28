@@ -2,6 +2,16 @@ import Link from "next/link"
 import { IconCloudDemo } from '../ComponentHelper/TechUsed'
 import GradualSpacing from '../components/magicui/gradual-spacing'
 import PulsatingButton from '../components/magicui/pulsating-button'
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
+  DialogTrigger,
+} from "../components/ui/dialog"
+import {DockDemo} from '../ComponentHelper/ContactUs'
+
 
 export default function Component() {
   return (
@@ -15,7 +25,19 @@ export default function Component() {
           <Link href="#" className="text-base font-medium hover:underline underline-offset-4" prefetch={false}>Features</Link>
           <Link href="/pricing" className="text-base font-medium hover:underline underline-offset-4" prefetch={false}>Pricing</Link>
           <Link href="#" className="text-base font-medium hover:underline underline-offset-4" prefetch={false}>About</Link>
-          <Link href="#" className="text-base font-medium hover:underline underline-offset-4" prefetch={false}>Contact</Link>
+          <Dialog>
+          <DialogTrigger asChild>
+            <Link href="#" className="text-base font-medium hover:underline underline-offset-4" prefetch={false}>
+            
+              Contact
+            </Link>
+          </DialogTrigger>
+          <DialogContent>
+            <DialogHeader>
+              <DockDemo/>
+            </DialogHeader>
+          </DialogContent>
+        </Dialog>
         </nav>
       </header>
 
