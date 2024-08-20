@@ -5,12 +5,11 @@ import { eq } from 'drizzle-orm'
 import React, { useEffect, useState } from 'react'
 import QuestionsSection from './_components/QuestionsSection'
 import RecordAnswer from './_components/RecordAnswer'
-// import { Button } from '@/components/ui/button'
 import { Button } from '../../../../../components/ui/button.jsx'
 import Link from 'next/link'
 import { quantum } from 'ldrs'
 import { useRouter } from 'next/navigation.js'
-
+d
 function StartInterview({params}) {
 
     const [interviewData, setInterviewData] = useState();

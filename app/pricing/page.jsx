@@ -4,7 +4,6 @@ import Header from "../dashboard/_components/Header";
 
 export default function Pricing() {
   return (
-    
     (
     <><Header /><div className="flex flex-col min-h-[100dvh]">
 

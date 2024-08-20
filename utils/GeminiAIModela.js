@@ -18,7 +18,7 @@ const {
     maxOutputTokens: 8192,
     responseMimeType: "text/plain",
   };
-  
+  // settings
   const safetySettings=[
     {
         category:HarmCategory.HARM_CATEGORY_HARASSMENT,

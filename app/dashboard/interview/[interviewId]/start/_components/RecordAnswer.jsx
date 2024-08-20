@@ -79,7 +79,6 @@ const RecordAnswerSection = ({
 
     const JsonfeedbackResp = JSON.parse(mockJsonResp);
 
-    
     const resp = await db.insert(UserAnswer).values({
       mockIdRef: interviewData?.mockId,
       question: mockInterviewQuestion[activeQuestionIndex]?.question,

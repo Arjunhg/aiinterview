@@ -12,6 +12,7 @@ const fontHeading = DM_Sans({
   variable: '--font-heading',
 });
 
+// font
 const fontBody = Space_Mono({
   subsets: ['latin'],
   display: 'swap',

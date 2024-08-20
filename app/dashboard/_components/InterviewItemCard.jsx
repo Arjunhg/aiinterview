@@ -14,7 +14,6 @@ function InterviewItemCard({interview}) {
         router.push('/dashboard/interview/'+interview.mockId+'/feedback')
     }
   return (
-
     
     <div className='border shadow-sm rounded-lg p-3'>
       <h2 className='font-bold text-blue-500'>{interview?.jobPosition}</h2>

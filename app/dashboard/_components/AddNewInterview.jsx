@@ -7,7 +7,6 @@ import {
     DialogDescription,
     DialogHeader,
     DialogTitle,
-    DialogTrigger,
   } from "../../../components/ui/dialog.jsx"
 import {Button} from '../../../components/ui/button.jsx'
 import { Input } from '../../../components/ui/input.jsx'

@@ -3,7 +3,6 @@ import AddNewInterview from './_components/AddNewInterview';
 import InterviewList from './_components/InterviewList';
 
 function Dashboard() {
-
   return (
     <>
     

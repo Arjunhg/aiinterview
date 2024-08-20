@@ -3,7 +3,6 @@ import React from "react";
 import { Dock, DockIcon } from "../components/magicui/dock";
 import Link from "next/link";
 
-
 export function DockDemo() {
   return (
     <div className="relative">

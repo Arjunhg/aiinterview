@@ -2,7 +2,6 @@
 
 import { UserButton } from '@clerk/nextjs'
 import { BotIcon } from 'lucide-react'
-import Image from 'next/image'
 import { usePathname } from 'next/navigation'
 import React, { useEffect } from 'react'
 import { useRouter } from 'next/navigation'
@@ -29,7 +28,7 @@ function Header() {
     }
   return (
     <div className='flex p-4 items-center justify-between bg-secondary shadow-md relative z-10' style={{backgroundImage:'url(/grid.svg)'}}>
-      <BotIcon className="h-6 w-6 hover:cursor-pointer " onClick={home}/>
+      sche
       <ul className='hidden md:flex gap-6'>
 
         <li className={`hover:text-purple-400 hover:font-bold transition-all cursor-pointer ${path == '/dashboard' && 'text-purple-400 font-bold'}`} onClick={navigateToDashboard}>Dashboard</li>

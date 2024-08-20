@@ -29,4 +29,4 @@ export const UserAnswer = pgTable('userAnswer',{
     createdAt:varchar('createdAt')
 })
 
-// after this run npm run db:push to push changes then run npm run db:studio again
+//  run npm run db:push to push changes then run npm run db:studio again

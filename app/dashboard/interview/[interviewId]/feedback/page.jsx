@@ -44,11 +44,6 @@ function Feedback({params}) {
       <h2 className="font-bold text-2xl">
         Here is your interview feedback
       </h2>
-
-      {/* overall rating */}
-      {/* {feedBackList&&feedBackList.map((item,index) => (
-        
-      ))} */}
       
       {
         feedBackList?.length==0 ? <h2 className='text-purple-400 text-lg my-3'>No Interview performed</h2> : <>

@@ -8,7 +8,7 @@ Welcome to the future of interview preparation! Our AI-powered mock interview pl
 
 - **Realistic AI Interviews**: Experience lifelike interview scenarios powered by advanced AI.
 - **Personalized Feedback**: Receive instant, detailed feedback on your performance.
-- **Diverse Question Bank**: Practice with a wide range of industry-specific questions.
+- **Diverse Question Bank**: Practice with wide range of industry-specific questions.
 - **Progress Tracking**: Monitor your improvement over time.(🔴 Upcoming)
 - **Video Recording**: Review your body language and verbal responses.(🔴 Upcoming)
 

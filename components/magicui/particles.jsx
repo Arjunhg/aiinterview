@@ -179,7 +179,6 @@ const Particles = ({
   const animate = () => {
     clearContext();
     circles.current.forEach((circle, i) => {
-      // Handle the alpha value
       const edge = [
         circle.x + circle.translateX - circle.size, // distance from left edge
         canvasSize.current.w - circle.x - circle.translateX - circle.size, // distance from right edge

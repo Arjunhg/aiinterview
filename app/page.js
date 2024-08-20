@@ -11,6 +11,7 @@ import {
   DialogTrigger,
 } from "../components/ui/dialog"
 import {DockDemo} from '../ComponentHelper/ContactUs'
+import Image from "next/image"
 
 
 export default function Component() {
@@ -22,9 +23,7 @@ export default function Component() {
           <span className="text-black ml-3 mt-0.5 text-xl font-semibold">Interview Genie</span>
         </Link>
         <nav className="ml-auto flex gap-6 sm:gap-8">
-          {/* <Link href="#" className="text-base font-medium hover:underline underline-offset-4" prefetch={false}>Features</Link> */}
           <Link href="/pricing" className="text-base font-medium hover:underline underline-offset-4" prefetch={false}>Pricing</Link>
-          {/* <Link href="#" className="text-base font-medium hover:underline underline-offset-4" prefetch={false}>About</Link> */}
           <Dialog>
           <DialogTrigger asChild>
             <Link href="#" className="text-base font-medium hover:underline underline-offset-4" prefetch={false}>
@@ -88,7 +87,7 @@ export default function Component() {
               </div>
             </div>
             <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
-              <img
+              <Image
                 src="/splash.png"
                 width="650"
                 height="400"

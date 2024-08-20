@@ -12,8 +12,6 @@ function QuestionsSection({mockInterviewQuestion, activeQuestionIndex}) {
         }
     }
     useEffect(() => {
-        // console.log("mockInterviewQuestion is:", mockInterviewQuestion)
-        // console.log("Type of mockInterviewQuestion is:", typeof(mockInterviewQuestion))
     },[])
   return mockInterviewQuestion&&(
 
